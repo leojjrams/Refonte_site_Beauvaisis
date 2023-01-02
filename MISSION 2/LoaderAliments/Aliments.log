@@ -1,0 +1,121 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mer. Nov. 2 12:38:27 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   D:\REEL\LoaderAliments\Aliments.ctl
+Fichier de données :      D:\REEL\LoaderAliments\Aliments.dat
+  Fichier des enregistrements refusés :     D:\REEL\LoaderAliments\Aliments.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table ALIMENTS, chargé quand VITAMINE_B5 != 0X4e554c4c(caractère 'NULL')
+Option d'insertion en vigueur pour cette table : APPEND
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+ALIM_CODE                           FIRST     *   ;  O(") CHARACTER            
+ALIM_NOM_FR                          NEXT     *   ;  O(") CHARACTER            
+ALIM_GRP_CODE                        NEXT     *   ;  O(") CHARACTER            
+ALIM_GRP_NOM_FR                      NEXT     *   ;  O(") CHARACTER            
+ALIM_SSGRP_CODE                      NEXT     *   ;  O(") CHARACTER            
+ALIM_SSGRP_NOM_FR                    NEXT     *   ;  O(") CHARACTER            
+ALIM_SSSSGRP_CODE                    NEXT     *   ;  O(") CHARACTER            
+ALIM_SSSSGRP_NOM_FR                  NEXT     *   ;  O(") CHARACTER            
+ENERGIEKJ                            NEXT     *   ;  O(") CHARACTER            
+ENERGIECAL                           NEXT     *   ;  O(") CHARACTER            
+ENERGIEKJJONES                       NEXT     *   ;  O(") CHARACTER            
+ENERGIECALJONES                      NEXT     *   ;  O(") CHARACTER            
+EAU                                  NEXT     *   ;  O(") CHARACTER            
+PROTEINESJONES                       NEXT     *   ;  O(") CHARACTER            
+PROTEINES                            NEXT     *   ;  O(") CHARACTER            
+GLUCIDES                             NEXT     *   ;  O(") CHARACTER            
+LIPIDES                              NEXT     *   ;  O(") CHARACTER            
+SUCRES                               NEXT     *   ;  O(") CHARACTER            
+FRUCTOSE                             NEXT     *   ;  O(") CHARACTER            
+GALACTOSE                            NEXT     *   ;  O(") CHARACTER            
+GLUCOSE                              NEXT     *   ;  O(") CHARACTER            
+LACTOSE                              NEXT     *   ;  O(") CHARACTER            
+MALTOSE                              NEXT     *   ;  O(") CHARACTER            
+SACCHAROSE                           NEXT     *   ;  O(") CHARACTER            
+AMIDON                               NEXT     *   ;  O(") CHARACTER            
+FIBRES_ALIMENTAIRES                  NEXT     *   ;  O(") CHARACTER            
+POLYOLS_TOTAUX                       NEXT     *   ;  O(") CHARACTER            
+CENDRES                              NEXT     *   ;  O(") CHARACTER            
+ALCOOL                               NEXT     *   ;  O(") CHARACTER            
+ACIDES_ORGANIQUES                    NEXT     *   ;  O(") CHARACTER            
+AG_SATURES                           NEXT     *   ;  O(") CHARACTER            
+AG_MONOINSATURES                     NEXT     *   ;  O(") CHARACTER            
+AG_POLYINSATURES                     NEXT     *   ;  O(") CHARACTER            
+AG4_BUTYRIQUE                        NEXT     *   ;  O(") CHARACTER            
+AG6_CAPROIQUE                        NEXT     *   ;  O(") CHARACTER            
+AG8_CAPRYLIQUE                       NEXT     *   ;  O(") CHARACTER            
+AG10_CAPRIQUE                        NEXT     *   ;  O(") CHARACTER            
+AG12_LAURIQUE                        NEXT     *   ;  O(") CHARACTER            
+AG14_MYRISTIQUE                      NEXT     *   ;  O(") CHARACTER            
+AG16_PALMITIQUE                      NEXT     *   ;  O(") CHARACTER            
+AG18_STEARIQUE                       NEXT     *   ;  O(") CHARACTER            
+AG18_OLEIQUE                         NEXT     *   ;  O(") CHARACTER            
+AG18_LINOLEIQUE                      NEXT     *   ;  O(") CHARACTER            
+AG18_ALPHA_LINOLENIQUE               NEXT     *   ;  O(") CHARACTER            
+AG20_ARACHIDONIQUE                   NEXT     *   ;  O(") CHARACTER            
+AG20_EPA                             NEXT     *   ;  O(") CHARACTER            
+AG22_DHA                             NEXT     *   ;  O(") CHARACTER            
+CHOLESTEROL                          NEXT     *   ;  O(") CHARACTER            
+SEL_CHLORURE_DE_SODIUM               NEXT     *   ;  O(") CHARACTER            
+CALCIUM                              NEXT     *   ;  O(") CHARACTER            
+CHLORURE                             NEXT     *   ;  O(") CHARACTER            
+CUIVRE                               NEXT     *   ;  O(") CHARACTER            
+FER                                  NEXT     *   ;  O(") CHARACTER            
+IODE                                 NEXT     *   ;  O(") CHARACTER            
+MAGNESIUM                            NEXT     *   ;  O(") CHARACTER            
+MANGANESE                            NEXT     *   ;  O(") CHARACTER            
+PHOSPHORE                            NEXT     *   ;  O(") CHARACTER            
+POTASSIUM                            NEXT     *   ;  O(") CHARACTER            
+SELENIUM                             NEXT     *   ;  O(") CHARACTER            
+SODIUM                               NEXT     *   ;  O(") CHARACTER            
+ZINC                                 NEXT     *   ;  O(") CHARACTER            
+RETINOL                              NEXT     *   ;  O(") CHARACTER            
+BETA_CAROTENE                        NEXT     *   ;  O(") CHARACTER            
+VITAMINE_D                           NEXT     *   ;  O(") CHARACTER            
+VITAMINE_E                           NEXT     *   ;  O(") CHARACTER            
+VITAMINE_K1                          NEXT     *   ;  O(") CHARACTER            
+VITAMINE_K2                          NEXT     *   ;  O(") CHARACTER            
+VITAMINE_C                           NEXT     *   ;  O(") CHARACTER            
+VITAMINE_B1                          NEXT     *   ;  O(") CHARACTER            
+VITAMINE_B2                          NEXT     *   ;  O(") CHARACTER            
+VITAMINE_B3                          NEXT     *   ;  O(") CHARACTER            
+VITAMINE_B5                          NEXT     *   ;  O(") CHARACTER            
+
+la valeur utilisée pour le paramètre ROWS est passée de 250 à 56
+
+Table ALIMENTS :
+  Chargement de 3168 Lignes effectué.
+  0 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                1040256 octets(56 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :          3168
+Nombre total d'enregistrements logiques rejetés :         0
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Mer. Nov.  02 12:38:27 2022
+La fin de l'exécution a été effectuée sur Mer. Nov.  02 12:38:38 2022
+
+Temps écoulé (ELAPSED) :     00:00:10.80
+Temps processeur (CPU) :    00:00:00.03

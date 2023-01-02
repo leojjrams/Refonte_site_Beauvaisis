@@ -1,0 +1,68 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mer. Nov. 2 12:39:05 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   D:\REEL\\LoaderSondage\Sondage.ctl
+Fichier de données :      D:\REEL\LoaderSondage\Sondage.dat
+  Fichier des enregistrements refusés :     D:\REEL\\LoaderSondage\Sondage.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table SONDAGE, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : APPEND
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+ADMINISTRE                          FIRST     *   ;  O(") CHARACTER            
+NOM                                  NEXT     *   ;  O(") CHARACTER            
+PRENOM                               NEXT     *   ;  O(") CHARACTER            
+ADRESSE                              NEXT     *   ;  O(") CHARACTER            
+CODEPOSTAL                           NEXT     *   ;  O(") CHARACTER            
+VILLE                                NEXT     *   ;  O(") CHARACTER            
+TELEPHONE                            NEXT     *   ;  O(") CHARACTER            
+ALIMENT1                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT2                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT3                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT4                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT5                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT6                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT7                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT8                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT9                             NEXT     *   ;  O(") CHARACTER            
+ALIMENT10                            NEXT     *   ;  O(") CHARACTER            
+NUTRISCORE                           NEXT     *   ;  O(") CHARACTER            
+SCORESANTE                           NEXT     *   ;  O(") CHARACTER            
+
+la valeur utilisée pour le paramètre ROWS est passée de 250 à 213
+
+Table SONDAGE :
+  Chargement de 998 Lignes effectué.
+  0 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                1044126 octets(213 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :           998
+Nombre total d'enregistrements logiques rejetés :         0
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Mer. Nov.  02 12:39:05 2022
+La fin de l'exécution a été effectuée sur Mer. Nov.  02 12:39:14 2022
+
+Temps écoulé (ELAPSED) :     00:00:08.29
+Temps processeur (CPU) :    00:00:00.00

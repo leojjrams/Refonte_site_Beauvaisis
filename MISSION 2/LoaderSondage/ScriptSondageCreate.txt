@@ -1,0 +1,23 @@
+DROP TABLE SONDAGE CASCADE CONSTRAINTS PURGE;
+
+CREATE TABLE SONDAGE(
+    Administre INT,
+    Nom VARCHAR(100),
+    Prenom VARCHAR(100),
+    Adresse VARCHAR(100),
+    CodePostal VARCHAR(50),
+    Ville VARCHAR(50),
+    Telephone VARCHAR(20),
+    Aliment1 INT,
+    Aliment2 INT,
+    Aliment3 INT,
+    Aliment4 INT,
+    Aliment5 INT,
+    Aliment6 INT,
+    Aliment7 INT,
+    Aliment8 INT,
+    Aliment9 INT,
+    Aliment10 INT,
+	NutriScore VARCHAR(4),
+	ScoreSante INT
+);
